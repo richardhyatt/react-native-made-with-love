@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "black",
+      }
+    }
+  >
+    Made with
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "darkred",
+      }
+    }
+  >
+     ♥︎ 
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "black",
+      }
+    }
+  >
+    in Toronto
+  </Text>
+</View>
+`;
