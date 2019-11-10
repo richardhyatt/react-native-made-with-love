@@ -1,6 +1,6 @@
 {
   "name": "react-native-made-with-love",
-  "version": "1.0.0",
+  "version": "1.0.0-beta1",
   "description": "React Native component to display a 'Made with love in ...' text",
   "main": "src/index.js",
   "scripts": {
