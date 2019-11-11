@@ -15,3 +15,9 @@ test('normal operation, place changed', () => {
   const tree = renderer.create(<MadeWithLove place={'New York'}/>).toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+test('normal operation, place changed', () => {
+
+  const tree = renderer.create(<MadeWithLove place={'New York'}/>).toJSON();
+  expect(tree).toMatchSnapshot();
+});

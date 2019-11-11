@@ -33,4 +33,24 @@ Changing the `place` property allows the location to be set to your favorite cit
 
 ### `color`
 
-Color to be used for the text
+Color to be used for the text. Default is `black`
+
+### `heartColor`
+
+Color to be used for the heart. Default is `darkred`
+
+### `place`
+
+Place to be displayed after the heart. Default is `"Toronto"`
+
+### `style`
+
+Styling to be applied to the container that surrounds the text.
+
+### `textStyle`
+
+Styling applied to the text
+
+### `heartStyle`
+
+Styling applied to the heart
