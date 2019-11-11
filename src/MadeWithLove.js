@@ -12,23 +12,25 @@ const styles = StyleSheet.create({
     },
 });
 
-const MadeWithLove = ( { color, heartColor, place, style } ) => {
+const MadeWithLove = ( { color, heartColor, place, style, textStyle, heartStyle } ) => {
 
-    const textStyle = {
+    const _textStyle = {
 
         color,
+        ...textStyle,
     };
 
-    const heartStyle = {
+    const _heartStyle = {
 
         color: heartColor,
+        ...heartStyle,
     };
 
     return (
-        <View style={styles.container}>
-            <Text style={textStyle}>Made with</Text>
-            <Text style={heartStyle}>{' ♥︎ '}</Text>
-            <Text style={textStyle}>{'in ' + place}</Text>
+        <View style={[styles.container, style]}>
+            <Text style={_textStyle}>Made with</Text>
+            <Text style={_heartStyle}>{' ♥︎ '}</Text>
+            <Text style={_textStyle}>{'in ' + place}</Text>
         </View>
     );
 };

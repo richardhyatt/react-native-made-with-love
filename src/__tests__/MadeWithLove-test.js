@@ -1,16 +1,8 @@
 import React from 'react';
 
-import MadeWithLoveDefault from '../index.js';
-
-import { MadeWithLove } from '../index.js';
+import MadeWithLove from '../MadeWithLove.js';
 
 import renderer from 'react-test-renderer';
-
-
-test('exports', () => {
-
-    expect( MadeWithLove ).toEqual( MadeWithLoveDefault );
-});
 
 test('normal operation without any changes', () => {
 
