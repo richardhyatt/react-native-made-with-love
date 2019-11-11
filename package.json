@@ -1,16 +1,16 @@
 {
   "name": "react-native-made-with-love",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta3",
   "description": "React Native component to display a 'Made with love in ...' text",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "author": "richardhyatt",
   "license": "ISC",
   "peerDependencies": {
-      "react": "16.9.0",
-      "react-native": "0.61.4"
+    "react": "^16.9.0",
+    "react-native": "^0.61.4"
   },
   "devDependencies": {
     "@babel/core": "7.6.3",
@@ -18,14 +18,20 @@
     "@react-native-community/eslint-config": "0.0.5",
     "babel-jest": "24.9.0",
     "jest": "24.9.0",
-    "metro-react-native-babel-preset": "0.51.1",
+    "metro-react-native-babel-preset": "^0.51.1",
     "react-test-renderer": "16.9.0"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/richardhyatt/react-native-made-with-love.git"
+    "type": "git",
+    "url": "https://github.com/richardhyatt/react-native-made-with-love.git"
+  },
+  "bugs": {
+      "url": "https://github.com/richardhyatt/react-native-made-with-love/issues"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
   }
 }

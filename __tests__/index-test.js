@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MadeWithLove from '../Index';
+import MadeWithLove from '../index';
 
 import renderer from 'react-test-renderer';
 
