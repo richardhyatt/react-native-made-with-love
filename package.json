@@ -1,13 +1,18 @@
 {
   "name": "react-native-made-with-love",
-  "version": "1.0.0-beta4",
+  "version": "1.0.0-beta5",
   "description": "React Native component to display a 'Made with love in ...' text",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "author": "richardhyatt",
-  "license": "ISC",
+  "license": "MIT",
+  "files": [
+      "index.js",
+      "src/**/*.js",
+      ".babelrc"
+  ],
   "peerDependencies": {
     "react": "^16.9.0",
     "react-native": "^0.61.4"

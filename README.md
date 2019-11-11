@@ -17,7 +17,20 @@ function MyPage() {
 
     return (
 
-        <MadeWithLove place='Toronto'/>
+        <MadeWithLove/>
     );
 }
 ```
+
+Which will produce:
+
+![Default Values](/images/defaults.png)
+
+Changing the `place` property allows the location to be set to your favorite city
+
+
+## Properties
+
+### `color`
+
+Color to be used for the text
