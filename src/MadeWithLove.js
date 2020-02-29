@@ -4,43 +4,43 @@ import { Text, View, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
 
-    container: {
+  container: {
 
-        flexDirection: 'row',
-        backgroundColor: 'transparent',
-        justifyContent: 'center',
-    },
+    flexDirection: 'row',
+    backgroundColor: 'transparent',
+    justifyContent: 'center',
+  },
 });
 
 const MadeWithLove = ( { color, heartColor, place, style, textStyle, heartStyle } ) => {
 
-    const _textStyle = {
+  const _textStyle = {
 
-        color,
-        ...textStyle,
-    };
+    color,
+    ...textStyle,
+  };
 
-    const _heartStyle = {
+  const _heartStyle = {
 
-        color: heartColor,
-        ...heartStyle,
-    };
+    color: heartColor,
+    ...heartStyle,
+  };
 
-    return (
-        <View style={[styles.container, style]}>
-            <Text style={_textStyle}>Made with</Text>
-            <Text style={_heartStyle}>{' ♥︎ '}</Text>
-            <Text style={_textStyle}>{'in ' + place}</Text>
-        </View>
-    );
+  return (
+    <View style={[styles.container, style]}>
+      <Text style={_textStyle}>Made with</Text>
+      <Text style={_heartStyle}>{' ♥︎ '}</Text>
+      <Text style={_textStyle}>{'in ' + place}</Text>
+    </View>
+  );
 };
 
 MadeWithLove.defaultProps = {
 
-    color: 'black',
-    heartColor: 'darkred',
-    place: 'Toronto',
-    style: {},
+  color: 'black',
+  heartColor: 'darkred',
+  place: 'Toronto',
+  style: {},
 };
 
 export default MadeWithLove;
