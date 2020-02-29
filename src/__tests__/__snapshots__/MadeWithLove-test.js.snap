@@ -85,3 +85,46 @@ exports[`normal operation, place changed 1`] = `
   </Text>
 </View>
 `;
+
+exports[`normal operation, place changed 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      Object {},
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "black",
+      }
+    }
+  >
+    Made with
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "darkred",
+      }
+    }
+  >
+     ♥︎ 
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "black",
+      }
+    }
+  >
+    in New York
+  </Text>
+</View>
+`;
